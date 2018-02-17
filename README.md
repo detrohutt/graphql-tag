@@ -119,7 +119,7 @@ Testing environments that don't support Webpack require additional configuration
 
 #### Support for multiple operations
 
-With the webpack loader, you can also import operations by name:
+With the webpack loader (or [babel-plugin-inline-import-graphql-ast](https://www.npmjs.com/package/babel-plugin-inline-import-graphql-ast)), you can also import operations by name:
 
 In a file called `query.gql`:
 ```graphql
