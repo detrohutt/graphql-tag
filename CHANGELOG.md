@@ -1,12 +1,19 @@
 # Change log
 
-### v2.7.0
+### v2.8.0
 
 * Update `graphql` to ^0.13, support testing all compatible versions [jnwng](https://github.com/jnwng) in 
   [PR #156](https://github.com/apollographql/graphql-tag/pull/156)
 * Export single queries as both default and named [stonexer](https://github.com/stonexer) in
   [PR #154](https://github.com/apollographql/graphql-tag/pull/154)
+  
+### v2.7.{0,1,2,3}
 
+* Improve TypeScript type safety, then revert due to errors being thrown
+  
+### v2.6.1
+
+* Add support for `graphql@^0.12.0` as peerDependency
 
 ### v2.6.0
 
